@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    object-fit: contain;
+}
+
+a, a:visited {
+    color: darkgreen;
+}
+
+nav {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+nav h2 {
+    word-spacing: 20px;
+}
+
+div.master {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+div.glos {
+    display: flex;
+    gap: 10px;
+    color: darkgreen;
+}
+div.column {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+}
+
+div.list {
+    padding: 10px;
+}
+
+div.glos-alphabet {
+    margin: 5px;
+    margin-bottom: 15px;
+    border: 4px solid black;
+    padding: 10px;
+    color: darkgreen;
+    text-align: center;
+}
+
+div.voc {
+    display: flex;
+    margin: 5px;
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+div.voc h2 {
+    margin: 0px;
+}
+div.figure {
+    flex: 1;
+    text-align: right;
+}
+div.figure img {
+    height: 200px;
+    width: 300 px;
+    object-fit: contain;
+}
+div.texte {
+    flex: 2;
+}
+
+div.bord-info {
+    margin: 5px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.fam {
+    color: darkmagenta;
+}
+
+div.plant {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+    margin: 5px;
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+div.nom-sp {
+    flex: 1;
+    border-right: 1px darkgrey dashed;
+    padding-right: 10px;
+}
+
+div.nom-sp em {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+div.nom-sp h4 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.1em;
+    margin-top: 2px;
+}
+
+div.img-sp {
+    flex: 2;
+    text-align: right;
+}
+img.infoflora {
+    height: 30px;
+    width: 50px;
+    object-fit: contain;
+}
+
+div.infoflora {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
